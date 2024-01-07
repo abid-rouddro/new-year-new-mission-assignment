@@ -1,0 +1,50 @@
+.header {
+    color: hsla(185, 98%, 51%, 0.945);
+    background-image: url('../resources/Banner\ Image.png');
+    width: 1320px;
+    height: 425px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 16px;
+    padding-top: 175px;
+}
+
+
+/* nav related styles */
+.nav-title {
+    font-size: 30px;
+    font-weight: 400px;
+    margin-bottom: 10px;
+    font-style: normal;
+}
+.nav-greeting {
+    font-size: 75px;
+    margin-top: 10px;
+}
+/* caption related style */
+
+.div-title{
+       text-align: center;
+       margin-top: 100px;
+}
+
+.div-off{
+    color: red;
+    font-size: 90px;
+    margin-bottom: 40px;
+}
+
+.div-our{
+    color: rgb(112, 22, 230);
+    font-size: 25px;
+    margin: 0;
+}
+
+.div-cetagories{
+    color: rgb(132, 83, 9);
+    font-size: 50px;
+    font-weight: 700px;
+    margin-bottom: 50px;
+    margin-top: 0;
+}
