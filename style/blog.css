@@ -1,12 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .header {
     color: hsla(185, 98%, 51%, 0.945);
     background-image: url('../resources/Banner\ Image.png');
+    border-radius: 16px;
     width: 1320px;
     height: 425px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    border-radius: 16px;
     padding-top: 175px;
 }
 
@@ -24,7 +29,7 @@
     margin-top: 10px;
 }
 
-/* caption related style */
+/* section-1 related style */
 
 .div-title {
     text-align: center;
@@ -51,6 +56,7 @@
     margin-top: 0;
 }
 
+/* section-2 related style */
 .div-middle {
     background-image: url('../resources/Vectorrr.png');
     width: 1320px;
@@ -62,7 +68,7 @@
 }
 
 .title {
-    color: red;
+    color: rgb(240, 240, 240);
     padding-left: 130px;
     margin-top: 150px;
     font-size: 60px;
@@ -85,6 +91,7 @@
     text-transform: uppercase;
     background-color: rgb(14, 13, 13);
     color: aliceblue;
+    border: none;
 
 }
 
@@ -95,18 +102,22 @@
     padding-top: 50px;
 }
 
+/* section-3 related style */
 .about-info {
     background-color: bisque;
-    width: 1320px;
-    height: 480px;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-    padding-top: 120px;
-    margin-top: 100px;
-    font-size: 30px;
-    font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
+    width: 1320px;
+    height: 600px;
+    margin-top: 100px;
+    padding-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    border-radius: 20px;
 
 }
 
@@ -119,15 +130,27 @@
     color: rgb(14, 48, 37);
 }
 
-.button {
-    width: 160px;
-    height: 55px;
-    font-size: 20px;
+.button-join {
+    align-items: center;
+    gap: 10px;
     background-color: red;
-    color: aliceblue;
-    text-transform: uppercase;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin-top: 50px;
 }
 
+/* section-4-style */
+.best-offer{
+    background-color: white;
+    width: 1320px;
+    height: 700px;
+}
+
+
+/* section-6 related style */
 .portfolio-cetagories {
     background-color: white;
     width: 1320px;
@@ -172,7 +195,8 @@
     padding-left: 20px;
 }
 
-.subscribe{
+/* section-7 related style */
+.subscribe {
     margin-top: 600px;
     background-color: rgb(250, 220, 182);
     width: 1320px;
@@ -181,24 +205,126 @@
     margin-left: auto;
     text-align: center;
     padding-top: 90px;
+    border-radius: 20px;
 }
 
-.subscribe-title{
+.subscribe-title {
     color: #2e0680;
     text-align: center;
     font-size: 48px;
     font-weight: 900;
+    margin-top: 50px;
 }
-.subscribe-caption{
+
+.subscribe-caption {
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
     font-weight: 400;
 }
-.footer-coloum{
+
+
+/* footer related style */
+.footer-coloum {
     background-color: black;
-    margin-top: 100px;
     color: aliceblue;
+    margin-top: 120px;
+    width: 1600px;
     height: 650px;
+
+}
+
+.footer-section-1 {
+    padding: 120px 291px 90px 140px;
+}
+
+.footer-one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-image-call {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-address {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    font-size: 25px;
+    font-family: sans-serif;
 }
 
 
+
+.website,
+.num-web-coloum {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500px;
+}
+
+.website .footer-image-web {
+    width: 24px;
+    height: 24px;
+}
+/* horizontal-line-style */
+.horizontal-line {
+    width: 1320px;
+    height: 1px;
+    color: blue;
+    margin-right: auto;
+    margin-left: auto;
+} 
+/* footer-site-img style */
+.footer-site-img{
+    text-align: center;
+    padding: 50px 630px 50px 600px;
+
+}
+
+
+.instagram {
+    margin-left: 25px;
+}
+.twitter{
+    margin-left: 25px;
+}
+.linkedin{
+    margin-left: 25px;
+}
+
+/* horizontal-line-2 -style */
+.horizontal-line-2{
+    width: 1320px;
+    height: 1px;
+    margin-right: auto;
+    margin-left: auto;
+} 
+
+/* footer-last-style */
+.footer-last{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.reserved{
+    padding-top: 50px;
+    padding-left: 140px;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 500px;
+}
+
+.unsubscribe{
+    padding-top: 50px;
+    padding-right: 140px;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 500px;
+}
